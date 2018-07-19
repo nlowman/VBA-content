@@ -47,6 +47,8 @@ Double
 - If a cell in any argument is an empty cell, CountIfs treats it as a 0 value.
     
 - You can use the wildcard characters, question mark (?) and asterisk (*), in criteria. A question mark matches any single character; an asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, type a tilde (~) before the character.
+
+- When using a custom range, re-stating the range in the odd numbered arguments (those preceeding the criteria) will prevent error '1004' from occuring. 
     
 
 ## See also
